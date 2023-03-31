@@ -6,7 +6,7 @@ layout: default
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
@@ -14,6 +14,23 @@ layout: default
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
+      <h3 class="contact-title">Links</h3>
+      <ul>
+        {% if site.social-github %}
+          <li><a href="http://github.com/{{site.social-github}}" target="_blank">Github</a></li>
+        {% endif %}
+        {% if site.social-home %}
+          <li><a href="http://{{site.social-home}}" target="_blank">Home Page</a></li>
+        {% endif %}
+        {% if site.social-instagram %}
+          <li><a href="http://{{site.social-instagram}}" target="_blank">Instagram</a></li>
+        {% endif %}
+        {% if site.social-blog %}
+          <li ><a href="http://{{site.social-blog}}" target="_blank">한국어 블로그</a></li>
+        {% endif %}
+      </ul>
+    </section> <!-- End Section Contact -->
+    <!--section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
         {% if site.social-twitter %}
@@ -44,7 +61,7 @@ layout: default
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+      <p> &copy; {{site.time | date: '%Y'}} {{site.author}}</p>
     </div>
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
