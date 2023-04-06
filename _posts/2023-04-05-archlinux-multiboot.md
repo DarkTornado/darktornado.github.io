@@ -156,7 +156,7 @@ I recommend that you set a root password now.
 
 ***
 
-# Install NetworkManager
+## Install NetworkManager
 
 ```
 # pacman -S networkmanager
