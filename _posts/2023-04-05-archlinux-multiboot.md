@@ -7,7 +7,7 @@ img: archlinux-multiboot.png
 
 ## Before Installation
 I shrunk `Windows Partition` and I used `Ventoy` to boot from the .iso file.
-You can get Arch Linux .iso file from [This Link](https://archlinux.org/download/)
+You can get Arch Linux .iso file from [This Link](https://archlinux.org/download/) [한국어 게시글](https://darktornado.github.io/blog/arch-multi-boot/)
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/archlinux-multiboot/0.png)
 
