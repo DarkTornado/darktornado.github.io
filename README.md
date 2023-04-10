@@ -3,4 +3,4 @@
 
 - This site is made with [flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll) Theme.
 - [English Blog](https://darktornado.github.io/)
-- [한국어 블로그](https://darktornado.github.io/blog/)
+- [Korean Blog/한국어 블로그](https://darktornado.github.io/blog/)
