@@ -29,7 +29,7 @@ Arch Linux was booted.
 
 ## Connect to Internet (with Wi-Fi)
 
-If you use `wired ethernet`, you don't need to fallow this step.
+If you use `wired ethernet`, you don't need to follow this step.
 You can use `Wi-Fi` via `iwctl`
 
 ```
