@@ -89,8 +89,10 @@ Check what you selected again and type `yes` if everything is correct.
 <br>
 `Quit` to exit
 
-Check Partitions via `lsblk -f` and mount
+<br>
+Create `ext4` file system to the partition which you are going to instal Arch Linux and mount.
 ```
+# mkfs.ext4 /dev/{Partition that you are going to install Arch Linux}
 # mount /dev/{Partition that you are going to install Arch Linux} /mnt
 # mkdir -p /mnt/boot/efi
 # mount /dev/{EFI Partition} /mnt/boot
