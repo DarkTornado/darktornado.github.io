@@ -1,7 +1,8 @@
 title: Dark Tornado's Blog
+description: Dark Tornado's Blog (English)
 permalink: ':title/'
 #baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://darktornado.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
