@@ -52,9 +52,9 @@
     <meta name="twitter:description" content="{{ site.description }}">
 
   {% if page.img %}
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/thumb/{{ page.img }}">
+    <meta name="twitter:image" property="twitter:image:src" content="{{ site.url }}/assets/images/thumb/{{ page.img }}">
   {% else %}
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ site.author-img }}">
+    <meta name="twitter:image" property="twitter:image:src" content="{{ site.url }}/assets/images/{{ site.author-img }}">
   {% endif %}
 
 	<meta name="description" content="{{ page.description }}">
