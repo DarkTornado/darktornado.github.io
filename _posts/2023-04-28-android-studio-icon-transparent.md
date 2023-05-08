@@ -21,7 +21,7 @@ But, From several years ago, Android Studio started to require icon's background
 ![image]({{site.url}}{{site.baseurl}}/assets/images/android-studio-icon-transparent/0.png)
 
 <br>
-We must select color without transparent even if original image has transparent background
+We must select color without transparent even if original image has transparent background.
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/android-studio-icon-transparent/1.png)
 
